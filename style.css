@@ -1,0 +1,36 @@
+html {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    color: #E5E7EB;
+    background: #1F2937;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.first-block {
+    display: flex;
+    background: #1F2937;
+    justify-items: center;
+    
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
