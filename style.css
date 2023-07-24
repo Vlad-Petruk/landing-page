@@ -13,19 +13,33 @@ html {
     display: flex;
     color: #E5E7EB;
     background: #1F2937;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 200px;
+    
 }
 
 .links {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 40px;
 }
 
 .first-block {
     display: flex;
     background: #1F2937;
-    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 200px;
+}
+
+.first-block p {
+    color: #E5E7EB;
+}
+
+.desk-team {
+    width: 500px;
     
 }
 
@@ -33,4 +47,50 @@ h1{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #3882F6;
+    width: 100px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.team-image img {
+    width: 500px;
+    border-radius: 5px;
+}
+
+.second-block {
+    padding: 40px 200px;
+}
+
+.second-block h2 {
+   color: #1F2937;
+   font-weight: bolder; 
+   font-size: 36px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.players {
+    display: flex;
+    justify-content: space-around;
+}
+
+.players p {
+    text-align: center;
+}
+
+.players img {
+    width: 13vw;
+    height: 22vh;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
 }
