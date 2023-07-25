@@ -40,7 +40,10 @@ html {
 
 .desk-team {
     width: 500px;
-    
+    display: flex;
+    flex-direction: column;
+    /* align-items: space-around; */
+    /* gap: 30px; */
 }
 
 h1{
@@ -62,13 +65,19 @@ button {
     margin-top: 10px;
 }
 
+/* .team-image {
+    width: 400px 500px;
+    object-fit: cover;
+} */
+
 .team-image img {
-    width: 500px;
+    width: 30vw;
+    height: 40vh;
     border-radius: 5px;
 }
 
 .second-block {
-    padding: 40px 200px;
+    padding: 40px 200px 100px;
 }
 
 .second-block h2 {
@@ -93,4 +102,49 @@ button {
     height: 22vh;
     border: 4px solid #3882F6;
     border-radius: 10px;
+}
+
+.third-block {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.messi {
+    align-self: flex-end;
+}
+
+.fourth-block {
+    padding: 100px 200px;
+}
+
+.do-it {
+    display: flex;
+    justify-content: space-between;
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 50px 110px;
+    border-radius: 10px;
+}
+
+.second-sign-up {
+    width: 130px;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0;
+}
+
+.info {
+    background: #1F2937;
+    text-align: center;
+    padding: 30px;
+    color: #E5E7EB;
+    font-size: 18px;
 }
